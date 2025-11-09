@@ -29,7 +29,7 @@ export default function Formulario() {
         
           <select
              id="cards"
-             className="border border-gray-500 rounded-lg w-50 mt-5"
+             className="border border-gray-500 rounded-lg w-50 mt-5 p-2"
           >
             <option className="text-center"> Fan Chant!! </option>
             <option value="" className="text-center" >Kim NamJoon</option>
@@ -43,7 +43,10 @@ export default function Formulario() {
           </select>
 
           </div>
-          
+          <button
+            type="submit"
+            className="mt-5 rounded rounded-xl w-full cursor-pointer p-2 bg-purple-400 text-purple-900 font-bold shadow-xl"
+          >Enviar</button>
         </div>
         
     </div>
