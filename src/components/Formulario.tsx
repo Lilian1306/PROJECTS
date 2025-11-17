@@ -1,16 +1,19 @@
 import React, { useState } from "react"
+import Card from "./Card"
 
 
 export default function Formulario() {
 
   const [name, setName] = useState('')
-  const [email, setEmail] = useState('')
+  const [country, setCountry] = useState('')
   const [cards, setCards] = useState('')
+  const [enviar, setEnviar] = useState<any>(null)
 
    const handleSubmit = (e: React.FormEvent) => {
      e.preventDefault()
+     setEnviar({name, country, cards})
 
-     console.log(name, email, cards)
+     console.log('Enviar formulario')
   }
 
   return (
@@ -33,15 +36,15 @@ export default function Formulario() {
            onChange={(e) => setName(e.target.value)}
           />
 
-          <label htmlFor="email" className="text-gray-700 mt-5"
-          >Escribe tu correo electronico:</label>
+          <label htmlFor="country" className="text-gray-700 mt-5"
+          >Escribe tu ciudad:</label>
           <input
-            type="email"
-            id="email"
-            placeholder="Escribe tu correo aqui"
+            type="country"
+            id="country"
+            placeholder="Escribe tu ciudad aqui"
             className="border border-gray-500 rounded-lg p-2 w-full"
-            value={email} 
-            onChange={(e) => setEmail(e.target.value)}
+            value={country} 
+            onChange={(e) => setCountry(e.target.value)}
           />
 
         <div>
@@ -69,7 +72,16 @@ export default function Formulario() {
             className="mt-5 rounded rounded-xl w-full cursor-pointer p-2 bg-purple-400 text-purple-900 font-bold shadow-xl"
           >Enviar</button>
         </form>
-        
+
+        {enviar && (
+          
+        <Card
+          name={enviar.name}
+          country={enviar.country}
+          cards={enviar.cards}
+        />
+        )}
+
     </div>
   )
 }
