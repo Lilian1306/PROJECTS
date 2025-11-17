@@ -20,7 +20,7 @@ export default function Formulario() {
     <div className=" mt-20">
         {!enviar ? (    
         <form 
-          className="items-center mt-10 flex flex-col  bg-purple-200 shadow-xl rounded-lg p-10 w-96 mx-auto"
+          className="items-center mt-10 flex flex-col bg-purple-200 shadow-xl rounded-lg p-10 w-96 mx-auto"
           onSubmit={handleSubmit}
         >
         
