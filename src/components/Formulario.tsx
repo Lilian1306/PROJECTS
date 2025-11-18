@@ -54,11 +54,11 @@ export default function Formulario() {
         
           <select
              id="cards"
-             className="border border-gray-500 rounded-lg w-50 mt-5 p-2"
+             className="border border-gray-500 rounded-lg w-60 mt-5 p-2"
              value={cards}
              onChange={(e) => setCards(e.target.value)}
           >
-            <option value='Fan Chant!!' className="text-center"> Fan Chant!! </option>
+            <option value='' disabled> -- Selecciona Una Opcion -- </option>
             <option value="Kim Namjoon" className="text-center" >Kim NamJoon</option>
             <option value="Kim SeokJin" className="text-center"  >Kim SeokJin</option>
             <option value="Min Yoongi" className="text-center" >Min Yoongi</option>
@@ -67,6 +67,7 @@ export default function Formulario() {
             <option value="Kim Taehyung" className="text-center" >Kim Taeyhung</option>
             <option value="Jeon Jungkook" className="text-center" >Jeon JungKook</option>
             <option value="BTS" className="text-center" >BTS</option>
+         
           </select>
 
           </div>

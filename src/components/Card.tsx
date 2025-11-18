@@ -9,14 +9,17 @@ export type CardProps = {
 
 export default function Card({name, country, cards, image} : CardProps) {
   return (
-    <div className="items-center flex flex-col bg-purple-300 w-96 mx-auto p-10 rounded-xl shadow-2xl h-96">
-     <div className="p-4 w-full text-left font-bold text-2xl text-purple-900">{name}</div>
-      <img
+    <div className="flex flex-col items-center justify-between bg-purple-300 w-[400px] h-[600px] mx-auto shadow-2xl p-10">
+     <div className=" w-full text-left font-bold text-2xl text-purple-900">{name}</div>
+     <div className="flex-1 w-full flex items-center justify-cebter overflow-hidden my-4">
+        <img
         src={image}
         alt={cards}
-        className="w-20 h-30"
+        className="max-w-auto max-h-auto object-contain rounded-lg shadow-md"
       />
-      <p className="text-purple-900 font-bold text-2xl text-right p-4 w-full mt-auto">{country}</p>
+
+     </div>
+      <p className="text-purple-900 font-bold text-2xl text-right w-full mt-auto">{country}</p>
     
     </div>
   )
