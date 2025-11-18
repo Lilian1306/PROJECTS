@@ -1,5 +1,7 @@
 import React, { useState } from "react"
 import Card from "./Card"
+import { Member } from "../data/data"
+
 
 
 export default function Formulario() {
@@ -11,9 +13,11 @@ export default function Formulario() {
 
    const handleSubmit = (e: React.FormEvent) => {
      e.preventDefault()
-     setEnviar({name, country, cards})
+     const memberFound = Member.find((m) => m.name === cards)
 
-     console.log('Enviar formulario')
+    
+
+     setEnviar({name, country, cards, image: memberFound ? memberFound?.image : ""})
   }
 
   return (
@@ -60,7 +64,7 @@ export default function Formulario() {
             <option value="Min Yoongi" className="text-center" >Min Yoongi</option>
             <option value="Jung Hoseok" className="text-center" >Jung Hoseok</option>
             <option value="Park Jimin" className="text-center" >Park Jimin</option>
-            <option value="Kim Taeyhung" className="text-center" >Kim Taeyhung</option>
+            <option value="Kim Taehyung" className="text-center" >Kim Taeyhung</option>
             <option value="Jeon Jungkook" className="text-center" >Jeon JungKook</option>
             <option value="BTS" className="text-center" >BTS</option>
           </select>
@@ -77,6 +81,7 @@ export default function Formulario() {
           name={enviar.name}
           country={enviar.country}
           cards={enviar.cards}
+          image={enviar.image}
         />
          )  } 
 
