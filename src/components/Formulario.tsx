@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import Card from "./Card"
 import { Member } from "../data/data"
 import Error from "./Error"
+import { IoMdArrowRoundBack } from "react-icons/io"
 
 
 export default function Formulario() {
@@ -24,6 +25,10 @@ export default function Formulario() {
 
      const memberFound = Member.find((m) => m.name === cards)
      setEnviar({name, country, cards, image: memberFound ? memberFound?.image : ""})
+
+     setName('')
+     setCountry('')
+     setCards('')
   }
 
   return (
@@ -86,12 +91,23 @@ export default function Formulario() {
         </form>
   
         ) : (
-        <Card
-          name={enviar.name}
-          country={enviar.country}
-          cards={enviar.cards}
-          image={enviar.image}
-        />
+          <div className="flex flex-col items-center">
+              <Card
+                name={enviar.name}
+                country={enviar.country}
+                cards={enviar.cards}
+                image={enviar.image}
+               />
+
+               <button 
+                  className="text-white"
+                  onClick={() => setEnviar(null)}
+               >
+                 <IoMdArrowRoundBack className="text-4xl mt-8 cursor-pointer"/>
+               </button>
+            
+          </div>
+      
          )  } 
 
     </div>
