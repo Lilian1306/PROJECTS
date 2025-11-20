@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import Card from "./Card"
 import { Member } from "../data/data"
-
+import Error from "./Error"
 
 
 export default function Formulario() {
@@ -10,9 +10,18 @@ export default function Formulario() {
   const [country, setCountry] = useState('')
   const [cards, setCards] = useState('')
   const [enviar, setEnviar] = useState<any>(null)
+  const [error, setError] = useState('')
 
    const handleSubmit = (e: React.FormEvent) => {
      e.preventDefault()
+     
+     if(name === '' || country === '' || cards === '') {
+      setError('Todos los campos son obligatorios')
+      return 
+     }
+
+     setError('')
+
      const memberFound = Member.find((m) => m.name === cards)
      setEnviar({name, country, cards, image: memberFound ? memberFound?.image : ""})
   }
@@ -24,6 +33,8 @@ export default function Formulario() {
           className="items-center mt-10 flex flex-col bg-purple-500 shadow-xl rounded-lg p-10 w-96 mx-auto"
           onSubmit={handleSubmit}
         >
+
+          {error && <Error>{error}</Error>}
         
           <label htmlFor="name" className=" text-white"
           >Escriba tu nombre: </label>
