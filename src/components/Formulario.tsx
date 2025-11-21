@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
 import Card from "./Card"
 import { Member } from "../data/data"
 import Error from "./Error"
@@ -10,8 +10,19 @@ export default function Formulario() {
   const [name, setName] = useState('')
   const [country, setCountry] = useState('')
   const [cards, setCards] = useState('')
-  const [enviar, setEnviar] = useState<any>(null)
   const [error, setError] = useState('')
+  const [enviar, setEnviar] = useState<any>(() => {
+  const save = localStorage.getItem('credenciales')
+    if(save) {
+      return JSON.parse(save)
+    }
+    return null
+  })
+
+  useEffect(() => {
+    localStorage.setItem('credenciales', JSON.stringify(enviar))
+  },[enviar])
+
 
    const handleSubmit = (e: React.FormEvent) => {
      e.preventDefault()

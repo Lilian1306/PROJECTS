@@ -16,7 +16,7 @@ export default function Card({name, country, cards, image} : CardProps) {
         <img
         src={image}
         alt={cards}
-        className="max-w-auto max-h-auto object-contain rounded-lg shadow-md"
+        className="max-w-full max-h-full object-contain rounded-lg shadow-md"
       />
 
      </div>
