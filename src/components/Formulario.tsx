@@ -3,6 +3,8 @@ import Card from "./Card"
 import { Member } from "../data/data"
 import Error from "./Error"
 import { IoMdArrowRoundBack } from "react-icons/io"
+import { downloadImage } from "../utils/downloadImage"
+import { FcDownload } from "react-icons/fc"
 
 
 export default function Formulario() {
@@ -102,7 +104,7 @@ export default function Formulario() {
         </form>
   
         ) : (
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center justify-center mt-6">
               <Card
                 name={enviar.name}
                 country={enviar.country}
@@ -110,12 +112,19 @@ export default function Formulario() {
                 image={enviar.image}
                />
 
+              <div className="text-white text-4xl mt-6 flex flex-row items-center gap-72">
                <button 
-                  className="text-white"
                   onClick={() => setEnviar(null)}
                >
-                 <IoMdArrowRoundBack className="text-4xl mt-8 cursor-pointer"/>
+                 <IoMdArrowRoundBack/>
                </button>
+
+               <button
+                  onClick={() => downloadImage}
+               >
+                 <FcDownload />
+               </button>
+              </div>
             
           </div>
       
