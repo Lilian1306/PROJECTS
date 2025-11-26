@@ -28,3 +28,5 @@ export default function Card({name, country, cards, image} : CardProps) {
     </>
   )
 }
+
+// Comentario para poder subir cambios
