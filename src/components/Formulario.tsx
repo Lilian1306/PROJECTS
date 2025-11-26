@@ -112,7 +112,7 @@ export default function Formulario() {
                 image={enviar.image}
                />
 
-              <div className="text-white text-4xl mt-6 flex flex-row items-center gap-72">
+              <div className="text-white text-4xl mt-6 flex flex-row items-center gap-72 cursor-pointer">
                <button 
                   onClick={() => setEnviar(null)}
                >
@@ -120,7 +120,7 @@ export default function Formulario() {
                </button>
 
                <button
-                  onClick={() => downloadImage}
+                  onClick={() => downloadImage("download", 'image.png' )}
                >
                  <FcDownload />
                </button>

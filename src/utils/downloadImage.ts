@@ -22,7 +22,7 @@ export const downloadImage = async (elementId: string, fieldName: string) => {
         } else {
             window.open(data)
         }
-    } catch(error1){
-        console.log('Error al generar la imagen:', error1)
+    } catch(error){
+        console.log('Error al generar la imagen:', error)
     }
 }
