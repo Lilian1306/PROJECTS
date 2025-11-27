@@ -41,3 +41,5 @@ export const Member = [
         image: "/BTS.jpg"
     }
 ]
+
+// Cambios
