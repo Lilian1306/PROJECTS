@@ -12,9 +12,10 @@ export default function PanaLayout() {
                 <span className="flex flex-row">Guatemala | English</span>
         
             </div>          
-            <div>
+            <div >
               <img
                 src="/logo.avif"
+                alt="Logo Atitlan"
                 className="h-28  w-auto rounded-xl shadow-2xl"
              /> 
             </div>
