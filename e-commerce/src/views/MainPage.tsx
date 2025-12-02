@@ -1,5 +1,6 @@
 import { useState } from "react";
 import dataButtons, { type DataTown } from "../data/DataButton";
+import TownModal from "../components/TownModal";
 
 
 export default function MainPage() {
@@ -26,8 +27,14 @@ export default function MainPage() {
             className="absolute -top-5 left-1/2 -translate-x-1/2 bg-black/90 text-white text-sm font-bold px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap"
           >Ver Detalles</span>
         </button>
+    
       ))}
- 
+     <TownModal
+        town={selectedTown}
+        closeModal={() => setSelectedTown(null)}
+        isOpen={!!selectedTown}
+     />
     </div>
   )
 }
+
