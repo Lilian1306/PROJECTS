@@ -10,8 +10,8 @@ export default function Router() {
             <Routes>
                 <Route element={<PanaLayout/>}>
                     <Route path="/" element={<MainPage/>} index />
-                    <Route path="/details" element={<TownDetails/>}/>
                 </Route>
+                    <Route path="/towndetails/:id" element={<TownDetails/>}/>
             </Routes>    
         </BrowserRouter>
     )

@@ -54,7 +54,7 @@ export default function TownModal({closeModal, isOpen, town} : TownModalProps) {
 
                         <div className="mt-2 flex justify-center">
                           <Link
-                            to="/details"
+                            to={`/towndetails/${town?.id}`}
                             className="inline-flex rounded-md border border-transparent bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-800 focus:outline-none"
                           >Ver más</Link>
 
