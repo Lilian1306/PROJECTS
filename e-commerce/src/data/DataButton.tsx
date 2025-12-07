@@ -27,7 +27,7 @@ const dataButtons: DataTown[] =  [
         left: "2.3%", 
         description: "San Antonio Palopó es un municipio de Sololá, Guatemala, conocido por su cultura indígena, paisajes a orillas del Lago Atitlán y colorida arquitectura. Se caracteriza por sus tradiciones...",
         image: "/Palopo.png",
-        heroImage: " "
+        heroImage: "/headers/Antonio.png "
     },
       {
         id: 3,

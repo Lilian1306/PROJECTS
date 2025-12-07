@@ -12,7 +12,7 @@ export default function TownDetails() {
   return (
     <>
       <div>
-        <img src={townData.heroImage} className="w-full h-40"/>
+        <img src={townData.heroImage} className="w-full h-100"/>
       </div>
     </>
   )
