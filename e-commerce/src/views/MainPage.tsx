@@ -1,5 +1,6 @@
 import { useState } from "react";
-import dataButtons, { type DataTown } from "../data/DataButton";
+import dataButtons from "../data/DataButton";
+import {type DataTown } from "../types/dataTypes";
 import TownModal from "../components/TownModal";
 
 
