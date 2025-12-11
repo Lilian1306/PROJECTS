@@ -9,7 +9,33 @@ const dataButtons: DataTown[] =  [
         left: "13%", 
         description: "San Lucas Tolimán es un municipio en el departamento de Sololá, Guatemala, ubicado a orillas del lago de Atitlán, conocido por su cultura, belleza natural y producción de café. Es un Pueblito Mágico que ofrece actividades como ...",
         image: "/Toliman.png",
-        heroImage: "/headers/Lucas.png"
+        heroImage: "/headers/Lucas.png", 
+        details: {
+          geography: {
+            department: "",
+            location: "",
+            climate: "",
+            altitude: "",
+            extension: "",
+            border: {
+              norte: "",
+              este: "",
+              sur: "",
+              oeste: ""
+            }
+          },
+          demographics: {
+            population: "",
+            ethnicity: "",
+            economy: "",
+          },
+          culture: {
+            nameOrigin: "",
+            history: "",
+            festival: ""
+          },
+          activities: []
+        }
     },
       {
         id: 2,
@@ -18,7 +44,33 @@ const dataButtons: DataTown[] =  [
         left: "2.3%", 
         description: "San Antonio Palopó es un municipio de Sololá, Guatemala, conocido por su cultura indígena, paisajes a orillas del Lago Atitlán y colorida arquitectura. Se caracteriza por sus tradiciones...",
         image: "/Palopo.png",
-        heroImage: "/headers/Antonio.png"
+        heroImage: "/headers/Antonio.png",
+         details: {
+          geography: {
+            department: "",
+            location: "",
+            climate: "",
+            altitude: "",
+            extension: "",
+            border: {
+              norte: "",
+              este: "",
+              sur: "",
+              oeste: ""
+            }
+          },
+          demographics: {
+            population: "",
+            ethnicity: "",
+            economy: "",
+          },
+          culture: {
+            nameOrigin: "",
+            history: "",
+            festival: ""
+          },
+          activities: []
+        }
     },
       {
         id: 3,
@@ -27,7 +79,33 @@ const dataButtons: DataTown[] =  [
         left: "5.8%", 
         description: "Santa Catarina Palopó es un municipio de Sololá, Guatemala, conocido por su ubicación a orillas del Lago Atitlán y por haber sido nombrado Pueblo Pintoresco. Su nombre significa...",
         image: "/Catarina.png",
-        heroImage: "/headers/Catarina.png "
+        heroImage: "/headers/Catarina.png ",
+         details: {
+          geography: {
+            department: "",
+            location: "",
+            climate: "",
+            altitude: "",
+            extension: "",
+            border: {
+              norte: "",
+              este: "",
+              sur: "",
+              oeste: ""
+            }
+          },
+          demographics: {
+            population: "",
+            ethnicity: "",
+            economy: "",
+          },
+          culture: {
+            nameOrigin: "",
+            history: "",
+            festival: ""
+          },
+          activities: []
+        }
     },
       {
         id: 4,
@@ -36,7 +114,33 @@ const dataButtons: DataTown[] =  [
         left: "17%", 
         description: "Panajachel es una ciudad turística en la costa norte del lago de Atitlán, en el departamento de Sololá, Guatemala, conocida por sus impresionantes paisajes volcánicos y su vibrante cultura. Es un destino popular para turistas que buscan...",
         image: "/Panajachel1.png",
-        heroImage: "/headers/Pana.png"
+        heroImage: "/headers/Pana.png",
+         details: {
+          geography: {
+            department: "",
+            location: "",
+            climate: "",
+            altitude: "",
+            extension: "",
+            border: {
+              norte: "",
+              este: "",
+              sur: "",
+              oeste: ""
+            }
+          },
+          demographics: {
+            population: "",
+            ethnicity: "",
+            economy: "",
+          },
+          culture: {
+            nameOrigin: "",
+            history: "",
+            festival: ""
+          },
+          activities: []
+        }
     },
       {
         id: 5,
@@ -45,7 +149,33 @@ const dataButtons: DataTown[] =  [
         left: "33.5%", 
         description: "San Jorge La Laguna es una aldea cercana a Sololá, en Guatemala, conocida principalmente por la Piedra de San Jorge, un mirador natural con vistas panorámicas del Lago de Atitlán, sus volcanes y Panajachel. La aldea también destaca por...",
         image: "/Jorge.png",
-        heroImage: "/headers/Jorge.png "
+        heroImage: "/headers/Jorge.png ",
+         details: {
+          geography: {
+            department: "",
+            location: "",
+            climate: "",
+            altitude: "",
+            extension: "",
+            border: {
+              norte: "",
+              este: "",
+              sur: "",
+              oeste: ""
+            }
+          },
+          demographics: {
+            population: "",
+            ethnicity: "",
+            economy: "",
+          },
+          culture: {
+            nameOrigin: "",
+            history: "",
+            festival: ""
+          },
+          activities: []
+        }
     },
       {
         id: 6,
@@ -54,7 +184,33 @@ const dataButtons: DataTown[] =  [
         left: "36.5%", 
         description: "Santa Cruz La Laguna es un municipio de Sololá, Guatemala, ubicado en las laderas del Lago de Atitlán, accesible principalmente por lancha desde Panajachel en unos 7 minutos. Se caracteriza por...",
         image: "/Santa Cruz.avif",
-        heroImage: "/headers/Cruz.png"
+        heroImage: "/headers/Cruz.png",
+         details: {
+          geography: {
+            department: "",
+            location: "",
+            climate: "",
+            altitude: "",
+            extension: "",
+            border: {
+              norte: "",
+              este: "",
+              sur: "",
+              oeste: ""
+            }
+          },
+          demographics: {
+            population: "",
+            ethnicity: "",
+            economy: "",
+          },
+          culture: {
+            nameOrigin: "",
+            history: "",
+            festival: ""
+          },
+          activities: []
+        }
     },
       {
         id: 7,
@@ -63,7 +219,33 @@ const dataButtons: DataTown[] =  [
         left: "53%", 
         description: "Jaibalito es un pequeño pueblo situado en la orilla del Lago de Atitlán en Guatemala, conocido por su ambiente tranquilo y la conexión con la naturaleza. Se puede acceder a él principalmente por...",
         image: "/Jaibalito.jpg",
-        heroImage: "/headers/Jaibalito.png "
+        heroImage: "/headers/Jaibalito.png ",
+         details: {
+          geography: {
+            department: "",
+            location: "",
+            climate: "",
+            altitude: "",
+            extension: "",
+            border: {
+              norte: "",
+              este: "",
+              sur: "",
+              oeste: ""
+            }
+          },
+          demographics: {
+            population: "",
+            ethnicity: "",
+            economy: "",
+          },
+          culture: {
+            nameOrigin: "",
+            history: "",
+            festival: ""
+          },
+          activities: []
+        }
     },
       {
         id: 8,
@@ -72,7 +254,33 @@ const dataButtons: DataTown[] =  [
         left: "55.5%", 
         description: "Tzununá es una aldea ubicada en las orillas del Lago Atitlán, en el departamento de Sololá, Guatemala. Es conocida por su belleza natural y su ambiente tranquilo, lo que la convierte en un destino popular para quienes buscan un lugar sereno y...",
         image: "/Tzununa.webp",
-        heroImage: "/headers/Tzununa.png"
+        heroImage: "/headers/Tzununa.png",
+         details: {
+          geography: {
+            department: "",
+            location: "",
+            climate: "",
+            altitude: "",
+            extension: "",
+            border: {
+              norte: "",
+              este: "",
+              sur: "",
+              oeste: ""
+            }
+          },
+          demographics: {
+            population: "",
+            ethnicity: "",
+            economy: "",
+          },
+          culture: {
+            nameOrigin: "",
+            history: "",
+            festival: ""
+          },
+          activities: []
+        }
     },
       {
         id: 9,
@@ -81,7 +289,33 @@ const dataButtons: DataTown[] =  [
         left: "66.5%", 
         description: "San Marcos La Laguna es un municipio del lago de Atitlán, Guatemala, conocido por su ambiente espiritual, holístico y natural, que atrae a muchos extranjeros. Se caracteriza por ser un destino de paz y relajación, ofreciendo actividades como...",
         image: "/Marcos.png",
-        heroImage: "/headers/Marcos.png"
+        heroImage: "/headers/Marcos.png",
+         details: {
+          geography: {
+            department: "",
+            location: "",
+            climate: "",
+            altitude: "",
+            extension: "",
+            border: {
+              norte: "",
+              este: "",
+              sur: "",
+              oeste: ""
+            }
+          },
+          demographics: {
+            population: "",
+            ethnicity: "",
+            economy: "",
+          },
+          culture: {
+            nameOrigin: "",
+            history: "",
+            festival: ""
+          },
+          activities: []
+        }
     },
       {
         id: 10,
@@ -90,7 +324,33 @@ const dataButtons: DataTown[] =  [
         left: "82.3%", 
         description: "San Pablo La Laguna es un municipio en el departamento de Sololá, Guatemala, ubicado a orillas del Lago de Atitlán y con acceso por vía terrestre o lacustre. Su economía se basa principalmente en la agricultura, mientras que el turismo ofrece actividades como...",
         image: "/Pablo.png",
-        heroImage: "/headers/Pablo.png "
+        heroImage: "/headers/Pablo.png ",
+         details: {
+          geography: {
+            department: "",
+            location: "",
+            climate: "",
+            altitude: "",
+            extension: "",
+            border: {
+              norte: "",
+              este: "",
+              sur: "",
+              oeste: ""
+            }
+          },
+          demographics: {
+            population: "",
+            ethnicity: "",
+            economy: "",
+          },
+          culture: {
+            nameOrigin: "",
+            history: "",
+            festival: ""
+          },
+          activities: []
+        }
     },
       {
         id: 11,
@@ -99,7 +359,33 @@ const dataButtons: DataTown[] =  [
         left: "88%", 
         description: "San Juan La Laguna es un municipio del departamento de Sololá, Guatemala, ubicado a orillas del Lago Atitlán, conocido por su rica cultura Tz'utujil, su arte vibrante y sus experiencias de turismo comunitario. Ofrece una experiencia cultural auténtica con coloridas calles, talleres de artesanos que crean...",
         image: "/Juan.png",
-        heroImage: "/headers/Juan.png "
+        heroImage: "/headers/Juan.png ",
+         details: {
+          geography: {
+            department: "",
+            location: "",
+            climate: "",
+            altitude: "",
+            extension: "",
+            border: {
+              norte: "",
+              este: "",
+              sur: "",
+              oeste: ""
+            }
+          },
+          demographics: {
+            population: "",
+            ethnicity: "",
+            economy: "",
+          },
+          culture: {
+            nameOrigin: "",
+            history: "",
+            festival: ""
+          },
+          activities: []
+        }
     },
       {
         id: 12,
@@ -108,7 +394,33 @@ const dataButtons: DataTown[] =  [
         left: "67%", 
         description: "San Pedro La Laguna es un municipio en Sololá, Guatemala, conocido por su ubicación a orillas del Lago de Atitlán, rodeado por tres volcanes. Es un destino turístico popular por su ambiente cultural, que incluye arte local (murales, pinturas), la etnia tz'utujil (su idioma y tradiciones) y una variedad de...",
         image: "/Pedro.png",
-        heroImage: "/headers/Pedro.png "
+        heroImage: "/headers/Pedro.png ",
+         details: {
+          geography: {
+            department: "",
+            location: "",
+            climate: "",
+            altitude: "",
+            extension: "",
+            border: {
+              norte: "",
+              este: "",
+              sur: "",
+              oeste: ""
+            }
+          },
+          demographics: {
+            population: "",
+            ethnicity: "",
+            economy: "",
+          },
+          culture: {
+            nameOrigin: "",
+            history: "",
+            festival: ""
+          },
+          activities: []
+        }
     },
      {
         id: 13,
@@ -117,7 +429,33 @@ const dataButtons: DataTown[] =  [
         left: "54%", 
         description: "Santiago Atitlán es un municipio y pueblo en el departamento de Sololá, Guatemala, ubicado a orillas del lago Atitlán y conocido por su rica cultura indígena Tz'utujil, sus vibrantes artesanías y sus impresionantes paisajes naturales. Es un centro cultural importante que...",
         image: "/Santiago.jpg",
-        heroImage: "/headers/Atitlan.png"
+        heroImage: "/headers/Atitlan.png",
+         details: {
+          geography: {
+            department: "",
+            location: "",
+            climate: "",
+            altitude: "",
+            extension: "",
+            border: {
+              norte: "",
+              este: "",
+              sur: "",
+              oeste: ""
+            }
+          },
+          demographics: {
+            population: "",
+            ethnicity: "",
+            economy: "",
+          },
+          culture: {
+            nameOrigin: "",
+            history: "",
+            festival: ""
+          },
+          activities: []
+        }
     },
     
 ]
