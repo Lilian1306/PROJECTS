@@ -1,6 +1,6 @@
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment } from "react/jsx-runtime";
-import type { DataTown } from "../data/DataButton";
+import type { DataTown } from "../types/dataTypes";
 import { Link } from "react-router-dom";
 
 interface TownModalProps {
