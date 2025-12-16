@@ -12,29 +12,35 @@ const dataButtons: DataTown[] =  [
         heroImage: "/headers/Lucas.png", 
         details: {
           geography: {
-            department: "",
-            location: "",
+            department: "Sololá",
+            location: "Sureste del lago de Atitlán.",
             climate: "",
-            altitude: "",
-            extension: "",
+            altitude: "La cabecera municipal se encuentra a 1,591 metros sobre el nivel del mar.",
+            extension: "Aproximadamente 116 kilómetros cuadrados. ",
             border: {
-              norte: "",
-              este: "",
-              sur: "",
-              oeste: ""
+              norte: "San Antonio Palopó y el lago de Atitlán.",
+              este: "Pochuta y Patzún (Chimaltenango).",
+              sur: "Patulul (Suchitepéquez).",
+              oeste: "Santiago Atitlán."
             }
           },
           demographics: {
-            population: "",
-            ethnicity: "",
-            economy: "",
+            population: "Según la municipalidad, la población es de aproximadamente 27,145 habitantes (aunque el censo oficial da un número menor).",
+            ethnicity: "Aproximadamente el 89% de los pobladores pertenecen al grupo étnico maya Kaqchikel. ",
+            economy: "La agricultura es la principal actividad, con cultivos de maíz, frijol, café y hortalizas. También se produce café de calidad, y hay emprendimientos como granjas agroecológicas.",
           },
           culture: {
-            nameOrigin: "",
-            history: "",
-            festival: ""
+            nameOrigin: "El nombre 'Tolimán' es de origen azteca y significa 'lugar donde hay bastante siembra de tul0'.",
+            history: "La región estuvo habitada por pueblos indígenas mucho antes de la llegada de los españoles. Fue un importante centro de comercio y ceremonial para los mayas. Fue parte del efímero Estado de Los Altos en 1838.",
+            festival: "Se celebra en octubre en honor a San Lucas Evangelista, el 18 de octubre es el día principal."
           },
-          activities: []
+          activities: [
+            "Senderismo: Se puede hacer senderismo en el 'Indian´s nose' (Montaña Nariz de Indio) para observar el amanecer.",
+            "Actividades acuáticas: Paseos en kayak por el lago de Atitlán, especialmente para ver el amanecer.",
+            "Café: Visitar fincas de café para aprender sobre el proceso y degustar productos locales.",
+            "Mercados: Recorrer el mercado local para conocer la vida cotidiana y los productos de la región.",
+            "Gastronomía: Probar dulces como los de la Cookibar." 
+]
         }
     },
       {
@@ -47,9 +53,9 @@ const dataButtons: DataTown[] =  [
         heroImage: "/headers/Antonio.png",
          details: {
           geography: {
-            department: "",
-            location: "",
-            climate: "",
+            department: "Sololá, Guatemala",
+            location: "A 27 km de la cabecera departamental Sololá y a 158 km de la Ciudad de Guatemala",
+            climate: "Templado",
             altitude: "",
             extension: "",
             border: {
@@ -65,11 +71,18 @@ const dataButtons: DataTown[] =  [
             economy: "",
           },
           culture: {
-            nameOrigin: "",
+            nameOrigin: " ‘Palopó’ proviene del kaqchikel y significa ‘árbol de amates’",
             history: "",
-            festival: ""
+            festival: "Se celebra el 13 de junio en honor a San Antonio de Padua"
           },
-          activities: []
+          activities: [
+            "Lago Atitlán: Ofrece impresionantes vistas y atardeceres.",
+            "Arquitectura: Casitas con techos de colores y la iglesia colonial de 500 años",
+            "Miradores: El mirador Mario Méndez Montenegro",
+            "Artesanías: Hay una gran variedad de artesanías y textiles a la venta",
+            "Muelles y malecones: Varios muelles públicos y malecones turísticos para pasear"
+
+          ]
         }
     },
       {
@@ -83,7 +96,7 @@ const dataButtons: DataTown[] =  [
          details: {
           geography: {
             department: "",
-            location: "",
+            location: "En el departamento de Sololá, en la orilla este del Lago de Atitlán. Se encuentra a unos 7 km de Panajachel.",
             climate: "",
             altitude: "",
             extension: "",
@@ -104,7 +117,15 @@ const dataButtons: DataTown[] =  [
             history: "",
             festival: ""
           },
-          activities: []
+          activities: [
+            "Casas pintadas: Un proyecto comunitario ha transformado el pueblo pintando las fachadas con vibrantes diseños mayas inspirados en la cultura local.",
+            "Iglesia de Santa Catarina Palopó: Una iglesia colonial de adobe ubicada en la plaza central",
+            "Aguas termales: Un atractivo único accesible por un camino junto al lago, donde se pueden sentir las aguas calientes que provienen de la erosión de las rocas.",
+            "Artesanías: Las mujeres del lugar son conocidas por sus güipiles (blusas tradicionales) con diseños detallados, que pueden adquirirse en las tiendas de artesanías.",
+            "Muelle: El muelle ofrece vistas tranquilas del lago y es un punto de partida para lanchas que pueden llevarte a otros lugares o a las aguas termales.",
+            "Casa Museo: Una casa museo cerca de la iglesia que exhibe información sobre la cultura local, incluyendo historias, leyendas y objetos antiguos." 
+
+          ]
         }
     },
       {
@@ -118,9 +139,9 @@ const dataButtons: DataTown[] =  [
          details: {
           geography: {
             department: "",
-            location: "",
+            location: "A orillas del lago de Atitlán, rodeada de volcanes, en el altiplano occidental de Guatemala.",
             climate: "",
-            altitude: "",
+            altitude: "Aproximadamente 1,600 metros sobre el nivel del mar.",
             extension: "",
             border: {
               norte: "",
@@ -130,16 +151,25 @@ const dataButtons: DataTown[] =  [
             }
           },
           demographics: {
-            population: "",
+            population: "Alrededor de 16,000 habitantes.",
             ethnicity: "",
             economy: "",
           },
           culture: {
             nameOrigin: "",
-            history: "",
+            history: "Fundada en el siglo XVI, fue un punto importante para misioneros y viajeros y se convirtió en un destino turístico popular a partir del siglo XX. ",
             festival: ""
           },
-          activities: []
+          activities: [
+            "Explorar la calle Santander: Caminar por esta calle principal, llena de tiendas de artesanías, textiles, joyas y restaurantes, hasta llegar al lago.",
+            "Paseos en lancha: Tomar lanchas públicas o privadas para visitar los pueblos vecinos en el lago de Atitlán.",
+            "Disfrutar la naturaleza: El lago es el principal atractivo. Se puede hacer kayak, windsurf o simplemente admirar el paisaje desde la orilla.",
+            "Mercado de Panajachel: Visitar el mercado para encontrar una variedad de frutas, comida (incluyendo pollo frito) y artesanías locales.",
+            "Visitar el Museo de Arqueología Maya Subacuática: Se encuentra al final de la calle Santander.",
+            "Disfrutar la vida nocturna: Hay bares y clubes, especialmente cerca del lago.",
+            "Actividades al aire libre: Si buscas aventura, puedes hacer kayak, paddleboard o windsurf en el lago.",
+            "Relax: Disfruta del ambiente tranquilo, tómate un café en un lugar con vista al lago como el Perla Maya Hotel."
+]
         }
     },
       {
@@ -153,9 +183,9 @@ const dataButtons: DataTown[] =  [
          details: {
           geography: {
             department: "",
-            location: "",
+            location: "Se sitúa a unos 4 kilómetros al este de la ciudad de Sololá.",
             climate: "",
-            altitude: "",
+            altitude: "Se encuentra a una altitud aproximada de 2,113.50 metros sobre el nivel del mar. ",
             extension: "",
             border: {
               norte: "",
@@ -187,10 +217,10 @@ const dataButtons: DataTown[] =  [
         heroImage: "/headers/Cruz.png",
          details: {
           geography: {
-            department: "",
-            location: "",
-            climate: "",
-            altitude: "",
+            department: "Sololá",
+            location: " En la orilla del Lago de Atitlán, en la región suroccidental del departamento. •	Acceso: Principalmente por lancha desde Panajachel (unos 7 minutos). También existe una vía terrestre desde Sololá.",
+            climate: "Templado, con temperaturas entre 12° y 18°",
+            altitude: " En la orilla del Lago de Atitlán, en la región suroccidental del departamento.",
             extension: "",
             border: {
               norte: "",
@@ -200,7 +230,7 @@ const dataButtons: DataTown[] =  [
             }
           },
           demographics: {
-            population: "",
+            population: "4,197 habitantes (según diagnóstico de 2018).",
             ethnicity: "",
             economy: "",
           },
@@ -209,7 +239,12 @@ const dataButtons: DataTown[] =  [
             history: "",
             festival: ""
           },
-          activities: []
+          activities: [
+            "Senderismo: Se ofrecen rutas para caminatas y ciclismo de montaña.",
+            "Buceo: Es uno de los pocos lugares en el lago con oferta de buceo.",
+            "Proyectos comunitarios: Se pueden visitar tiendas como Amigos de Santa Cruz y Manos Cruceñas, que venden artesanías locales.",
+            "Vistas: Ofrece vistas panorámicas del Lago de Atitlán."
+          ]
         }
     },
       {
@@ -223,7 +258,7 @@ const dataButtons: DataTown[] =  [
          details: {
           geography: {
             department: "",
-            location: "",
+            location: "Un pequeño pueblo en la orilla norte del Lago de Atitlán, en el departamento de Sololá, Guatemala. •	Acceso: Principalmente por lancha desde otros pueblos del lago. También es accesible a pie a través de senderos.",
             climate: "",
             altitude: "",
             extension: "",
@@ -244,7 +279,14 @@ const dataButtons: DataTown[] =  [
             history: "",
             festival: ""
           },
-          activities: []
+          activities: [
+            "Senderismo: Hay varias rutas de senderismo, incluyendo un sendero moderado de ida y vuelta de 2.4 km a la Cruz de Jaibalito, que se tarda aproximadamente 1 hora y 10 minutos en recorrer.",
+            "Paseos en cuatrimoto: Se ofrecen paseos por los alrededores del lago, ideales para familias.",
+            "Relajación: Es un lugar tranquilo para disfrutar de la naturaleza y las vistas del lago.","Ambiente: Es un destino tranquilo y menos concurrido en comparación con otros pueblos del lago.",
+            "Naturaleza: Ofrece contacto con la naturaleza, con senderos, miradores y espacios para explorar.",
+            "Cercanía: Se encuentra cerca de Santa Cruz La Laguna." 
+
+          ]
         }
     },
       {
@@ -279,7 +321,14 @@ const dataButtons: DataTown[] =  [
             history: "",
             festival: ""
           },
-          activities: []
+          activities: [
+            "Naturaleza y Paisajes: Tzununá se encuentra en un entorno montañoso con vistas espectaculares al Lago Atitlán y a los volcanes circundantes. Los visitantes pueden disfrutar de caminatas escénicas por senderos naturales que ofrecen vistas panorámicas del lago y la vegetación tropical.",
+            "Actividades al Aire Libre: Entre las actividades populares se encuentran paseos en lancha por el lago, donde se puede explorar la biodiversidad acuática y visitar otras comunidades cercanas. También se pueden realizar excursiones de pesca, especialmente al amanecer o al atardecer, cuando el lago está más tranquilo.",
+            "Cultura y Tradiciones: Tzununá es hogar de una comunidad principalmente maya tz’utujil, y los visitantes tienen la oportunidad de aprender sobre la cultura local a través de visitas a talleres de artesanías, donde se elaboran textiles tradicionales y cerámicas. La música y la danza tradicional también son aspectos destacados de la cultura local.",
+            "Gastronomía: Los restaurantes locales ofrecen platillos típicos guatemaltecos, como el pepián, los tamales y el atol de elote, que permiten a los visitantes disfrutar de la auténtica cocina local. Además, los mercados locales son excelentes lugares para probar frutas frescas y productos agrícolas de la región.",
+            "Alojamiento: Tzununá cuenta con opciones de alojamiento que van desde pequeñas posadas familiares hasta eco-lodges que ofrecen vistas panorámicas del lago. Estos lugares suelen estar diseñados para integrarse con el entorno natural y ofrecer una experiencia de hospedaje tranquila y relajante."
+
+          ]
         }
     },
       {
@@ -293,8 +342,8 @@ const dataButtons: DataTown[] =  [
          details: {
           geography: {
             department: "",
-            location: "",
-            climate: "",
+            location: "Se encuentra en el noroeste del lago de Atitlán, en el departamento de Sololá",
+            climate: "El clima es templado durante todo el año.",
             altitude: "",
             extension: "",
             border: {
@@ -314,7 +363,14 @@ const dataButtons: DataTown[] =  [
             history: "",
             festival: ""
           },
-          activities: []
+          activities: [
+            "Energía espiritual: El pueblo tiene un ambiente tranquilo y místico, con una gran comunidad de extranjeros que buscan bienestar y conexión con la naturaleza.",
+            "Artesanía y cultura: Ofrece artesanías tradicionales y murales, además de una iglesia católica central y un parque con una gran ceiba.",
+            "Actividades: Se puede disfrutar de sesiones holísticas (yoga, meditación), masajes y retiros de lujo.",
+            "Cerro San Cujil: Una reserva natural con senderos, miradores y un trampolín para lanzarse al lago. Se pueden encontrar altares mayas y realizar ceremonias.",
+            "Gastronomía: Hay lugares para comer y refrescarse, con precios que suelen ser más elevados que en otros pueblos de la zona."
+
+          ]
         }
     },
       {
@@ -328,8 +384,8 @@ const dataButtons: DataTown[] =  [
          details: {
           geography: {
             department: "",
-            location: "",
-            climate: "",
+            location: "Suroeste de Guatemala, en el departamento de Sololá, colinda con el Lago de Atitlán, San Marcos La Laguna, Santa Clara La Laguna y Santa Lucía Utatlán.",
+            climate: "Templado, con temperaturas que oscilan entre 15° C",
             altitude: "",
             extension: "",
             border: {
@@ -340,7 +396,7 @@ const dataButtons: DataTown[] =  [
             }
           },
           demographics: {
-            population: "",
+            population: "Aproximadamente 7,290",
             ethnicity: "",
             economy: "",
           },
@@ -349,7 +405,12 @@ const dataButtons: DataTown[] =  [
             history: "",
             festival: ""
           },
-          activities: []
+          activities: [
+            "Naturaleza: Ofrece senderos naturales y actividades como pesca artesanal y recorridos en lancha hacia otros pueblos del lago.",
+            "Cultura: Se pueden visitar talleres de textiles y el Templo Católico, declarado Patrimonio Cultural de la Nación.",
+            "Deportes: Kayak y paddleboard son opciones populares en el lago."
+
+          ]
         }
     },
       {
@@ -363,8 +424,8 @@ const dataButtons: DataTown[] =  [
          details: {
           geography: {
             department: "",
-            location: "",
-            climate: "",
+            location: "A orillas del Lago Atitlán, en el suroeste de Guatemala, a 174 km de la Ciudad de Guatemala y 52 km de Sololá.",
+            climate: "Templado y agradable, con temperaturas que oscilan entre 15∘ C ",
             altitude: "",
             extension: "",
             border: {
@@ -384,7 +445,14 @@ const dataButtons: DataTown[] =  [
             history: "",
             festival: ""
           },
-          activities: []
+          activities: [
+            "Miradores: Senderos que conducen a miradores con impresionantes vistas del lago y sus alrededores.",
+            "Talleres y galerías: Espacios donde se puede observar y comprar el trabajo de artesanos locales en tejidos, pinturas y cerámicas.",
+           "Pesca artesanal: Se ofrece la oportunidad de aprender sobre la pesca en el lago y la práctica con callucos.",
+           "Naturaleza: Se pueden conocer los procesos de producción de café y los diferentes tipos de plantas locales, como flores y chiles.",
+           "Cultura: Es posible presenciar demostraciones de la elaboración de instrumentos musicales, como la marimba."
+
+          ]
         }
     },
       {
@@ -398,8 +466,8 @@ const dataButtons: DataTown[] =  [
          details: {
           geography: {
             department: "",
-            location: "",
-            climate: "",
+            location: "Se encuentra en el departamento de Sololá, en la parte suroeste del Lago de Atitlán.",
+            climate: "Generalmente templado, debido a la altitud de aproximadamente 1,610",
             altitude: "",
             extension: "",
             border: {
@@ -410,7 +478,7 @@ const dataButtons: DataTown[] =  [
             }
           },
           demographics: {
-            population: "",
+            population: "Aproximadamente 13,000",
             ethnicity: "",
             economy: "",
           },
@@ -419,7 +487,15 @@ const dataButtons: DataTown[] =  [
             history: "",
             festival: ""
           },
-          activities: []
+          activities: [
+            "Senderismo: Se puede subir al volcán San Pedro para disfrutar de vistas espectaculares.",
+            "Deportes acuáticos: Es posible hacer kayak en el Lago de Atitlán.",
+            "Exploración: Recorrer los senderos naturales y admirar las vistas panorámicas.",
+            "Vida local: Visitar el puerto para comer, tomar café y disfrutar de la zona",
+          "Arte: Admirar el arte en las calles y visitar los talleres de pintores locales.",
+          "Transporte: Se llega fácilmente en lancha desde Panajachel o por carretera. Dentro del pueblo, los tuc-tucs son una opción común para moverse."
+
+          ]
         }
     },
      {
@@ -433,7 +509,7 @@ const dataButtons: DataTown[] =  [
          details: {
           geography: {
             department: "",
-            location: "",
+            location: "Se encuentra en el suroeste de Sololá, en la orilla sur del lago de Atitlán.",
             climate: "",
             altitude: "",
             extension: "",
@@ -454,7 +530,11 @@ const dataButtons: DataTown[] =  [
             history: "",
             festival: ""
           },
-          activities: []
+          activities: [	
+            "Miradores: El pueblo ofrece miradores con vistas impresionantes del lago y los volcanes.",
+            "Transporte: El transporte interno se realiza principalmente en mototaxis y camionetas.",
+            "Acceso: Se puede llegar en lancha desde Panajachel u otras localidades a la orilla del lago, o por carretera desde diferentes rutas." 
+]
         }
     },
     
