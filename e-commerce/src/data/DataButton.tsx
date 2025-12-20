@@ -12,7 +12,7 @@ const dataButtons: DataTown[] =  [
         heroImage: "/headers/Lucas.png", 
         details: {
           geography: {
-            department: "Sololá",
+            department: "Sololá, Guatemala",
             location: "Sureste del lago de Atitlán.",
             climate: "",
           },
@@ -65,7 +65,7 @@ const dataButtons: DataTown[] =  [
         heroImage: "/headers/Catarina.png ",
          details: {
           geography: {
-            department: "",
+            department: "Sololá, Guatemala",
             location: "En el departamento de Sololá, en la orilla este del Lago de Atitlán. Se encuentra a unos 7 km de Panajachel.",
             climate: "",
           },
@@ -93,7 +93,7 @@ const dataButtons: DataTown[] =  [
         heroImage: "/headers/Pana.png",
          details: {
           geography: {
-            department: "",
+            department: "Sololá, Guatemala",
             location: "A orillas del lago de Atitlán, rodeada de volcanes, en el altiplano occidental de Guatemala.",
             climate: "",
           },
@@ -122,7 +122,7 @@ const dataButtons: DataTown[] =  [
         heroImage: "/headers/Jorge.png ",
          details: {
           geography: {
-            department: "",
+            department: "Sololá, Guatemala",
             location: "Se sitúa a unos 4 kilómetros al este de la ciudad de Sololá.",
             climate: "",
           },
@@ -148,7 +148,7 @@ const dataButtons: DataTown[] =  [
         heroImage: "/headers/Cruz.png",
          details: {
           geography: {
-            department: "Sololá",
+            department: "Sololá, Guatemala",
             location: " En la orilla del Lago de Atitlán, en la región suroccidental del departamento. •	Acceso: Principalmente por lancha desde Panajachel (unos 7 minutos). También existe una vía terrestre desde Sololá.",
             climate: "Templado, con temperaturas entre 12° y 18°",
           },
@@ -173,7 +173,7 @@ const dataButtons: DataTown[] =  [
         heroImage: "/headers/Jaibalito.png ",
          details: {
           geography: {
-            department: "",
+            department: "Sololá, Guatemala",
             location: "Un pequeño pueblo en la orilla norte del Lago de Atitlán, en el departamento de Sololá, Guatemala. •	Acceso: Principalmente por lancha desde otros pueblos del lago. También es accesible a pie a través de senderos.",
             climate: "",
           },
@@ -200,7 +200,7 @@ const dataButtons: DataTown[] =  [
         heroImage: "/headers/Tzununa.png",
          details: {
           geography: {
-            department: "",
+            department: "Sololá, Guatemala",
             location: "",
             climate: "",
           },
@@ -227,7 +227,7 @@ const dataButtons: DataTown[] =  [
         heroImage: "/headers/Marcos.png",
          details: {
           geography: {
-            department: "",
+            department: "Sololá, Guatemala",
             location: "Se encuentra en el noroeste del lago de Atitlán, en el departamento de Sololá",
             climate: "El clima es templado durante todo el año.",
           },
@@ -254,7 +254,7 @@ const dataButtons: DataTown[] =  [
         heroImage: "/headers/Pablo.png ",
          details: {
           geography: {
-            department: "",
+            department: "Sololá, Guatemala",
             location: "Suroeste de Guatemala, en el departamento de Sololá, colinda con el Lago de Atitlán, San Marcos La Laguna, Santa Clara La Laguna y Santa Lucía Utatlán.",
             climate: "Templado, con temperaturas que oscilan entre 15° C",
           },
@@ -279,7 +279,7 @@ const dataButtons: DataTown[] =  [
         heroImage: "/headers/Juan.png ",
          details: {
           geography: {
-            department: "",
+            department: "Sololá, Guatemala",
             location: "A orillas del Lago Atitlán, en el suroeste de Guatemala, a 174 km de la Ciudad de Guatemala y 52 km de Sololá.",
             climate: "Templado y agradable, con temperaturas que oscilan entre 15∘ C ",
           },
@@ -306,7 +306,7 @@ const dataButtons: DataTown[] =  [
         heroImage: "/headers/Pedro.png ",
          details: {
           geography: {
-            department: "",
+            department: "Sololá, Guatemala",
             location: "Se encuentra en el departamento de Sololá, en la parte suroeste del Lago de Atitlán.",
             climate: "Generalmente templado, debido a la altitud de aproximadamente 1,610",
           },
@@ -334,7 +334,7 @@ const dataButtons: DataTown[] =  [
         heroImage: "/headers/Atitlan.png",
          details: {
           geography: {
-            department: "",
+            department: "Sololá, Guatemala",
             location: "Se encuentra en el suroeste de Sololá, en la orilla sur del lago de Atitlán.",
             climate: "",
           },
