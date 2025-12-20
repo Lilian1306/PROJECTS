@@ -14,8 +14,8 @@ export default function TownDetails() {
       <div>
         <img src={townData.heroImage} className="w-full h-100"/>
       </div>
-      <div>
-        Mostrando los detalles de cada pueblo
+      <div >
+         {townData.details.activities}
       </div>
     </>
   )
