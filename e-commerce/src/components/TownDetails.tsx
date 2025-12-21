@@ -14,8 +14,13 @@ export default function TownDetails() {
       <div>
         <img src={townData.heroImage} className="w-full h-100"/>
       </div>
-      <div >
-         {townData.details.activities}
+      <div>
+        <h2 className="text-xl font-bold mt-4">Actividades</h2>
+        <ul className="list-disc ml-5">
+          {townData.details.activities.map((activity, index) => (
+            <li key={index}>{activity}</li>
+          ))}
+        </ul>
       </div>
     </>
   )
