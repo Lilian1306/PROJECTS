@@ -11,8 +11,11 @@ export default function TownDetails() {
 
   return (
     <>
-      <div>
-        <img src={townData.heroImage} className="w-full h-100"/>
+      <div className="max-w-4xl mx-auto p-4">
+        <div>
+          <img src={townData.heroImage} alt={townData.name} className="w-full h-100"/>
+        </div>
+        
       </div>
       <div>
         <h2 className="text-xl font-bold mt-4">Actividades</h2>
