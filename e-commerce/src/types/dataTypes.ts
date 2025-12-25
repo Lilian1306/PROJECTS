@@ -8,12 +8,12 @@ export interface DataTown {
     description: string,
     image: string,
     heroImage: string
+    fullDescription: string
     details: {
         geography: {
             department: string
             location: string
             climate?: string
-            fullDescription: string
         }
         demographics?: {
             population?: string
