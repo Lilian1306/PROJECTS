@@ -18,10 +18,24 @@ export default function TownDetails() {
           alt={townData.name}
           className="w-full h-full object-cover"
         />
-        <div>
-          {townData.details.geography.fullDescription}
         </div>
-      </div>
+        <div className="text-black text-base">
+         <p>{townData.fullDescription}</p>
+        </div>
+
+        <div className="border-t pt-6">
+          <h2 className="text-xl font-bold">Actividades</h2>
+          <ul className="list-disc ml-5 mt-2 space-y-2">
+            {townData.details.activities.map((activity, index) => (
+              <li
+                key={index}
+              >
+                {activity}
+              </li>
+            ))}
+          </ul>
+        </div>
+      
      </div>
     </>
   )
