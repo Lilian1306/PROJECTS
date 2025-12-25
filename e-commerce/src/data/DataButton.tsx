@@ -15,6 +15,7 @@ const dataButtons: DataTown[] =  [
             department: "Sololá, Guatemala",
             location: "Sureste del lago de Atitlán.",
             climate: "",
+            fullDescription: "",
           },
           demographics: {
             population: "Según la municipalidad, la población es de aproximadamente 27,145 habitantes (aunque el censo oficial da un número menor)."
@@ -41,6 +42,7 @@ const dataButtons: DataTown[] =  [
             department: "Sololá, Guatemala",
             location: "A 27 km de la cabecera departamental Sololá y a 158 km de la Ciudad de Guatemala",
             climate: "Templado",
+            fullDescription: "",
           },
           demographics: {
             population: "",
@@ -68,6 +70,7 @@ const dataButtons: DataTown[] =  [
             department: "Sololá, Guatemala",
             location: "En el departamento de Sololá, en la orilla este del Lago de Atitlán. Se encuentra a unos 7 km de Panajachel.",
             climate: "",
+            fullDescription: "",
           },
           demographics: {
             population: "",
@@ -96,6 +99,7 @@ const dataButtons: DataTown[] =  [
             department: "Sololá, Guatemala",
             location: "A orillas del lago de Atitlán, rodeada de volcanes, en el altiplano occidental de Guatemala.",
             climate: "",
+            fullDescription: "",
           },
           demographics: {
             population: "Alrededor de 16,000 habitantes.",
@@ -125,6 +129,7 @@ const dataButtons: DataTown[] =  [
             department: "Sololá, Guatemala",
             location: "Se sitúa a unos 4 kilómetros al este de la ciudad de Sololá.",
             climate: "",
+            fullDescription: "",
           },
           demographics: {
             population: "",
@@ -151,6 +156,7 @@ const dataButtons: DataTown[] =  [
             department: "Sololá, Guatemala",
             location: " En la orilla del Lago de Atitlán, en la región suroccidental del departamento. •	Acceso: Principalmente por lancha desde Panajachel (unos 7 minutos). También existe una vía terrestre desde Sololá.",
             climate: "Templado, con temperaturas entre 12° y 18°",
+            fullDescription: "",
           },
           demographics: {
             population: "4,197 habitantes (según diagnóstico de 2018).",
@@ -176,6 +182,7 @@ const dataButtons: DataTown[] =  [
             department: "Sololá, Guatemala",
             location: "Un pequeño pueblo en la orilla norte del Lago de Atitlán, en el departamento de Sololá, Guatemala. •	Acceso: Principalmente por lancha desde otros pueblos del lago. También es accesible a pie a través de senderos.",
             climate: "",
+            fullDescription: "",
           },
           demographics: {
             population: "",
@@ -203,6 +210,7 @@ const dataButtons: DataTown[] =  [
             department: "Sololá, Guatemala",
             location: "",
             climate: "",
+            fullDescription: "",
           },
           demographics: {
             population: "",
@@ -230,9 +238,11 @@ const dataButtons: DataTown[] =  [
             department: "Sololá, Guatemala",
             location: "Se encuentra en el noroeste del lago de Atitlán, en el departamento de Sololá",
             climate: "El clima es templado durante todo el año.",
+            fullDescription: "",
           },
           demographics: {
             population: "",
+            
           },
           activities: [
             "Energía espiritual: El pueblo tiene un ambiente tranquilo y místico, con una gran comunidad de extranjeros que buscan bienestar y conexión con la naturaleza.",
@@ -257,6 +267,7 @@ const dataButtons: DataTown[] =  [
             department: "Sololá, Guatemala",
             location: "Suroeste de Guatemala, en el departamento de Sololá, colinda con el Lago de Atitlán, San Marcos La Laguna, Santa Clara La Laguna y Santa Lucía Utatlán.",
             climate: "Templado, con temperaturas que oscilan entre 15° C",
+            fullDescription: "",
           },
           demographics: {
             population: "Aproximadamente 7,290",
@@ -282,6 +293,7 @@ const dataButtons: DataTown[] =  [
             department: "Sololá, Guatemala",
             location: "A orillas del Lago Atitlán, en el suroeste de Guatemala, a 174 km de la Ciudad de Guatemala y 52 km de Sololá.",
             climate: "Templado y agradable, con temperaturas que oscilan entre 15∘ C ",
+            fullDescription: "",
           },
           demographics: {
             population: "",
@@ -309,6 +321,7 @@ const dataButtons: DataTown[] =  [
             department: "Sololá, Guatemala",
             location: "Se encuentra en el departamento de Sololá, en la parte suroeste del Lago de Atitlán.",
             climate: "Generalmente templado, debido a la altitud de aproximadamente 1,610",
+            fullDescription: "",
           },
           demographics: {
             population: "Aproximadamente 13,000",
@@ -337,6 +350,7 @@ const dataButtons: DataTown[] =  [
             department: "Sololá, Guatemala",
             location: "Se encuentra en el suroeste de Sololá, en la orilla sur del lago de Atitlán.",
             climate: "",
+            fullDescription: "",
           },
           demographics: {
             population: "",

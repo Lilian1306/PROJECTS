@@ -18,6 +18,9 @@ export default function TownDetails() {
           alt={townData.name}
           className="w-full h-full object-cover"
         />
+        <div>
+          {townData.details.geography.fullDescription}
+        </div>
       </div>
      </div>
     </>

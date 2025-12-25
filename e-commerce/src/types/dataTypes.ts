@@ -13,6 +13,7 @@ export interface DataTown {
             department: string
             location: string
             climate?: string
+            fullDescription: string
         }
         demographics?: {
             population?: string
