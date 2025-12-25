@@ -15,7 +15,7 @@ const dataButtons: DataTown[] =  [
             department: "Sololá, Guatemala",
             location: "Sureste del lago de Atitlán.",
             climate: "",
-            fullDescription: "",
+            fullDescription: "San Lucas Tolimán es un municipio en el departamento de Sololá, Guatemala, ubicado a orillas del lago de Atitlán, conocido por su cultura, belleza natural y producción de café. Es un 'Pueblito Mágico' que ofrece actividades como recorrer mercados locales, visitar fincas de café, disfrutar del lago en kayak o simplemente conocer la vida cotidiana y la hospitalidad de sus habitantes. ",
           },
           demographics: {
             population: "Según la municipalidad, la población es de aproximadamente 27,145 habitantes (aunque el censo oficial da un número menor)."
@@ -42,7 +42,7 @@ const dataButtons: DataTown[] =  [
             department: "Sololá, Guatemala",
             location: "A 27 km de la cabecera departamental Sololá y a 158 km de la Ciudad de Guatemala",
             climate: "Templado",
-            fullDescription: "",
+            fullDescription: "San Antonio Palopó es un municipio de Sololá, Guatemala, conocido por su cultura indígena, paisajes a orillas del Lago Atitlán y colorida arquitectura. Se caracteriza por sus tradiciones visibles en la vestimenta y la celebración de su feria en honor a San Antonio de Padua cada 13 de junio, con procesiones, música y comida típica. Destaca por la producción de artesanías, la belleza de su iglesia colonial y las vistas panorámicas del lago, y es un buen lugar para disfrutar de los atardeceres.",
           },
           demographics: {
             population: "",
@@ -70,7 +70,7 @@ const dataButtons: DataTown[] =  [
             department: "Sololá, Guatemala",
             location: "En el departamento de Sololá, en la orilla este del Lago de Atitlán. Se encuentra a unos 7 km de Panajachel.",
             climate: "",
-            fullDescription: "",
+            fullDescription: "Santa Catarina Palopó es un municipio de Sololá, Guatemala, conocido por su ubicación a orillas del Lago Atitlán y por haber sido nombrado 'Pueblo Pintoresco'. Su nombre significa 'árbol de amates' en idioma cachiquel y celebra su fiesta patronal el 25 de noviembre en honor a Santa Catalina de Alejandría. El pueblo destaca por sus casas coloridas con diseños mayas inspirados en un proyecto comunitario, una iglesia colonial y sus aguas termales. ",
           },
           demographics: {
             population: "",
@@ -99,7 +99,7 @@ const dataButtons: DataTown[] =  [
             department: "Sololá, Guatemala",
             location: "A orillas del lago de Atitlán, rodeada de volcanes, en el altiplano occidental de Guatemala.",
             climate: "",
-            fullDescription: "",
+            fullDescription: "Panajachel es una ciudad turística en la costa norte del lago de Atitlán, en el departamento de Sololá, Guatemala, conocida por sus impresionantes paisajes volcánicos y su vibrante cultura. Es un destino popular para turistas que buscan relajarse y explorar la región, ofreciendo una mezcla de negocios locales y turísticos, con una calle principal (calle Santander) llena de puestos de artesanías y comida. ",
           },
           demographics: {
             population: "Alrededor de 16,000 habitantes.",
@@ -129,7 +129,7 @@ const dataButtons: DataTown[] =  [
             department: "Sololá, Guatemala",
             location: "Se sitúa a unos 4 kilómetros al este de la ciudad de Sololá.",
             climate: "",
-            fullDescription: "",
+            fullDescription: "San Jorge La Laguna es una aldea cercana a Sololá, en Guatemala, conocida principalmente por la Piedra de San Jorge, un mirador natural con vistas panorámicas del Lago de Atitlán, sus volcanes y Panajachel. La aldea también destaca por tener una planta de gestión de desechos, aunque enfrenta problemas de escasez de agua, para lo cual se han propuesto soluciones a nivel local.",
           },
           demographics: {
             population: "",
@@ -156,7 +156,7 @@ const dataButtons: DataTown[] =  [
             department: "Sololá, Guatemala",
             location: " En la orilla del Lago de Atitlán, en la región suroccidental del departamento. •	Acceso: Principalmente por lancha desde Panajachel (unos 7 minutos). También existe una vía terrestre desde Sololá.",
             climate: "Templado, con temperaturas entre 12° y 18°",
-            fullDescription: "",
+            fullDescription: "Santa Cruz La Laguna es un municipio de Sololá, Guatemala, ubicado en las laderas del Lago de Atitlán, accesible principalmente por lancha desde Panajachel en unos 7 minutos. Se caracteriza por su fuerte sentido de comunidad, su rica cultura maya reflejada en murales, y la influencia extranjera que ha traído hostales y centros de meditación. Las actividades incluyen senderismo, visitas a proyectos comunitarios como Amigos de Santa Cruz, y opciones de buceo, además de contar con servicios básicos como un centro de salud, la municipalidad y una iglesia.",
           },
           demographics: {
             population: "4,197 habitantes (según diagnóstico de 2018).",
@@ -182,7 +182,7 @@ const dataButtons: DataTown[] =  [
             department: "Sololá, Guatemala",
             location: "Un pequeño pueblo en la orilla norte del Lago de Atitlán, en el departamento de Sololá, Guatemala. •	Acceso: Principalmente por lancha desde otros pueblos del lago. También es accesible a pie a través de senderos.",
             climate: "",
-            fullDescription: "",
+            fullDescription: "Jaibalito es un pequeño pueblo situado en la orilla del Lago de Atitlán en Guatemala, conocido por su ambiente tranquilo y la conexión con la naturaleza. Se puede acceder a él principalmente por lancha desde otros pueblos del lago o caminando por senderos, como la ruta de senderismo entre Santa Cruz La Laguna y Jaibalito. Ofrece oportunidades para el senderismo (como la ruta a la Cruz de Jaibalito o el camino a Santa Cruz), actividades recreativas como paseos en cuatrimoto y es un buen punto de partida para explorar la región. ",
           },
           demographics: {
             population: "",
@@ -210,7 +210,7 @@ const dataButtons: DataTown[] =  [
             department: "Sololá, Guatemala",
             location: "",
             climate: "",
-            fullDescription: "",
+            fullDescription: "Tzununá es una aldea ubicada en las orillas del Lago Atitlán, en el departamento de Sololá, Guatemala. Es conocida por su belleza natural y su ambiente tranquilo, lo que la convierte en un destino popular para quienes buscan un lugar sereno y pintoresco.",
           },
           demographics: {
             population: "",
@@ -238,7 +238,7 @@ const dataButtons: DataTown[] =  [
             department: "Sololá, Guatemala",
             location: "Se encuentra en el noroeste del lago de Atitlán, en el departamento de Sololá",
             climate: "El clima es templado durante todo el año.",
-            fullDescription: "",
+            fullDescription: "San Marcos La Laguna es un municipio del lago de Atitlán, Guatemala, conocido por su ambiente espiritual, holístico y natural, que atrae a muchos extranjeros. Se caracteriza por ser un destino de paz y relajación, ofreciendo actividades como yoga, meditación, masajes y senderismo en el cerro San Cujil, aunque se considera uno de los pueblos más caros de la zona. La comunidad se encuentra en la orilla del lago, es de acceso principal por lancha y también es el final de la carretera de la ruta al lago.",
           },
           demographics: {
             population: "",
@@ -267,7 +267,7 @@ const dataButtons: DataTown[] =  [
             department: "Sololá, Guatemala",
             location: "Suroeste de Guatemala, en el departamento de Sololá, colinda con el Lago de Atitlán, San Marcos La Laguna, Santa Clara La Laguna y Santa Lucía Utatlán.",
             climate: "Templado, con temperaturas que oscilan entre 15° C",
-            fullDescription: "",
+            fullDescription: "San Pablo La Laguna es un municipio en el departamento de Sololá, Guatemala, ubicado a orillas del Lago de Atitlán y con acceso por vía terrestre o lacustre. Su economía se basa principalmente en la agricultura, mientras que el turismo ofrece actividades como senderismo, visita a talleres textiles y deportes acuáticos. El municipio celebra su feria titular en honor a San Pablo el 25 de enero.",
           },
           demographics: {
             population: "Aproximadamente 7,290",
@@ -293,7 +293,7 @@ const dataButtons: DataTown[] =  [
             department: "Sololá, Guatemala",
             location: "A orillas del Lago Atitlán, en el suroeste de Guatemala, a 174 km de la Ciudad de Guatemala y 52 km de Sololá.",
             climate: "Templado y agradable, con temperaturas que oscilan entre 15∘ C ",
-            fullDescription: "",
+            fullDescription: "San Juan La Laguna es un municipio del departamento de Sololá, Guatemala, ubicado a orillas del Lago Atitlán, conocido por su rica cultura Tz'utujil, su arte vibrante y sus experiencias de turismo comunitario. Ofrece una experiencia cultural auténtica con coloridas calles, talleres de artesanos que crean tejidos y pinturas, y un enfoque en el arte y la agricultura local. Entre sus principales atractivos se encuentran los miradores con vistas panorámicas, la práctica de pesca artesanal y la visita a sus iglesias y mercados.",
           },
           demographics: {
             population: "",
@@ -321,7 +321,7 @@ const dataButtons: DataTown[] =  [
             department: "Sololá, Guatemala",
             location: "Se encuentra en el departamento de Sololá, en la parte suroeste del Lago de Atitlán.",
             climate: "Generalmente templado, debido a la altitud de aproximadamente 1,610",
-            fullDescription: "",
+            fullDescription: "San Pedro La Laguna es un municipio en Sololá, Guatemala, conocido por su ubicación a orillas del Lago de Atitlán, rodeado por tres volcanes. Es un destino turístico popular por su ambiente cultural, que incluye arte local (murales, pinturas), la etnia tz'utujil (su idioma y tradiciones) y una variedad de actividades como senderismo al volcán San Pedro, kayak y exploración natural. El pueblo ofrece infraestructura turística, incluyendo alojamiento, restaurantes y opciones de transporte en lancha o tuc-tuc.",
           },
           demographics: {
             population: "Aproximadamente 13,000",
@@ -350,7 +350,7 @@ const dataButtons: DataTown[] =  [
             department: "Sololá, Guatemala",
             location: "Se encuentra en el suroeste de Sololá, en la orilla sur del lago de Atitlán.",
             climate: "",
-            fullDescription: "",
+            fullDescription: "Santiago Atitlán es un municipio y pueblo en el departamento de Sololá, Guatemala, ubicado a orillas del lago Atitlán y conocido por su rica cultura indígena Tz'utujil, sus vibrantes artesanías y sus impresionantes paisajes naturales. Es un centro cultural importante que combina tradiciones ancestrales mayas con influencias coloniales, siendo famoso por la veneración de Maximón y por sus mercados llenos de coloridos textiles y tallas de madera.",
           },
           demographics: {
             population: "",
