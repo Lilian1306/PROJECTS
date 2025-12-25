@@ -13,9 +13,9 @@ const dataButtons: DataTown[] =  [
         fullDescription: "San Lucas Tolimán es un municipio en el departamento de Sololá, Guatemala, ubicado a orillas del lago de Atitlán, conocido por su cultura, belleza natural y producción de café. Es un 'Pueblito Mágico' que ofrece actividades como recorrer mercados locales, visitar fincas de café, disfrutar del lago en kayak o simplemente conocer la vida cotidiana y la hospitalidad de sus habitantes. ",
         details: {
           geography: {
-            department: "Sololá, Guatemala",
+            department: "Sololá, Guatemala.",
             location: "Sureste del lago de Atitlán.",
-            climate: "",
+            climate: "Templado a cálido, con una estación lluviosa marcada y una estación seca más despejada. Con temperaturas que varían entre los 15°C y los 25°C.",
           },
           demographics: {
             population: "Según la municipalidad, la población es de aproximadamente 27,145 habitantes (aunque el censo oficial da un número menor)."
@@ -45,7 +45,7 @@ const dataButtons: DataTown[] =  [
             climate: "Templado",
           },
           demographics: {
-            population: "",
+            population: "15,752 habitantes en 2021",
           },
           activities: [
             "Lago Atitlán: Ofrece impresionantes vistas y atardeceres.",
@@ -70,7 +70,7 @@ const dataButtons: DataTown[] =  [
           geography: {
             department: "Sololá, Guatemala",
             location: "En el departamento de Sololá, en la orilla este del Lago de Atitlán. Se encuentra a unos 7 km de Panajachel.",
-            climate: "",
+            climate: "Generalmente templado y agradable",
           },
           demographics: {
             population: "",
@@ -99,7 +99,7 @@ const dataButtons: DataTown[] =  [
           geography: {
             department: "Sololá, Guatemala",
             location: "A orillas del lago de Atitlán, rodeada de volcanes, en el altiplano occidental de Guatemala.",
-            climate: "",
+            climate: "El clima normal en Panajachel es templado y agradable durante todo el año. Con temperaturas que oscilan generalmente entre 10-11 °C y 26 °C, rara vez bajando de 8 °C o superando los 28 °C.",
           },
           demographics: {
             population: "Alrededor de 16,000 habitantes.",
@@ -129,10 +129,10 @@ const dataButtons: DataTown[] =  [
           geography: {
             department: "Sololá, Guatemala",
             location: "Se sitúa a unos 4 kilómetros al este de la ciudad de Sololá.",
-            climate: "",
+            climate: "El clima normal en San Jorge La Laguna, Sololá, Guatemala, es templado a fresco.  Con temperaturas que suelen oscilar entre los 10°C y 25°C, y microclimas que pueden ser húmedos o semifríos",
           },
           demographics: {
-            population: "",
+            population: "Aproximadamente de 8,000 habitantes",
           },
           activities: [
             "Senderismo: Se ofrecen rutas para caminatas y ciclismo de montaña.",
@@ -182,10 +182,10 @@ const dataButtons: DataTown[] =  [
           geography: {
             department: "Sololá, Guatemala",
             location: "Un pequeño pueblo en la orilla norte del Lago de Atitlán, en el departamento de Sololá, Guatemala. •	Acceso: Principalmente por lancha desde otros pueblos del lago. También es accesible a pie a través de senderos.",
-            climate: "",
+            climate: "Templado a cálido y húmedo, con una temporada lluviosa (nublado, lluvias) y una temporada seca (mayormente despejado), con temperaturas que varían generalmente entre los 10°C y 25°C a lo largo del año.",
           },
           demographics: {
-            population: "",
+            population: "Aproximadamente 1,000 (según diagnóstico de 2018).",
           },
           activities: [
             "Senderismo: Hay varias rutas de senderismo, incluyendo un sendero moderado de ida y vuelta de 2.4 km a la Cruz de Jaibalito, que se tarda aproximadamente 1 hora y 10 minutos en recorrer.",
@@ -209,11 +209,11 @@ const dataButtons: DataTown[] =  [
          details: {
           geography: {
             department: "Sololá, Guatemala",
-            location: "",
-            climate: "",
+            location: "Está en la costa norte del lago, vecino a municipios como Santa Cruz La Laguna y San Marcos La Laguna.",
+            climate: "Es templado y agradable, con dos estaciones marcadas: una época seca y cálida de noviembre a mayo (verano), con temperaturas diurnas alrededor de los 20-26°C, y una época lluviosa de junio a octubre",
           },
           demographics: {
-            population: "",
+            population: "1,000 (según diagnóstico de 2018)",
           },
           activities: [
             "Naturaleza y Paisajes: Tzununá se encuentra en un entorno montañoso con vistas espectaculares al Lago Atitlán y a los volcanes circundantes. Los visitantes pueden disfrutar de caminatas escénicas por senderos naturales que ofrecen vistas panorámicas del lago y la vegetación tropical.",
@@ -241,7 +241,7 @@ const dataButtons: DataTown[] =  [
             climate: "El clima es templado durante todo el año.",
           },
           demographics: {
-            population: "",
+            population: "Fue de 2,944 habitantes en 2021",
             
           },
           activities: [
@@ -296,7 +296,7 @@ const dataButtons: DataTown[] =  [
             climate: "Templado y agradable, con temperaturas que oscilan entre 15∘ C ",
           },
           demographics: {
-            population: "",
+            population: "Fue de aproximadamente 13,400 habitantes según datos de 2021",
           },
           activities: [
             "Miradores: Senderos que conducen a miradores con impresionantes vistas del lago y sus alrededores.",
@@ -350,11 +350,11 @@ const dataButtons: DataTown[] =  [
           geography: {
             department: "Sololá, Guatemala",
             location: "Se encuentra en el suroeste de Sololá, en la orilla sur del lago de Atitlán.",
-            climate: "",
+            climate: "Templado y cómodo todo el año, con temperaturas que varían entre 10 °C y 25 °C, rara vez bajando de 8 °C o superando los 27 °C.",
        
           },
           demographics: {
-            population: "",
+            population: "Estimacione de 44,854 (2021),",
           },
           activities: [	
             "Miradores: El pueblo ofrece miradores con vistas impresionantes del lago y los volcanes.",
