@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom"
 import dataButtons from "../data/DataButton"
+import BackButton from "./BackButton"
 
 
 
@@ -61,6 +62,8 @@ export default function TownDetails() {
             )}
           </div>
         </div>  
+
+              <BackButton/>
      </div>
     </>
   )
