@@ -7,10 +7,10 @@ export default function BackButton() {
   return (
     <button
         onClick={() => navigate(-1)}
-        className="text-3xl items-center"
+        className="text-3xl"
     >
-        <TiArrowBack/>
-        <span>Regresar</span>
+        <TiArrowBack className="text-blue-700"/>
+        <span className="text-blue-700">Regresar</span>
     </button>
   )
 }
