@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import DarkMode from "../utils/DarkMode";
 
 
 export default function PanaLayout() {
@@ -19,9 +20,10 @@ export default function PanaLayout() {
                 className="h-28  w-auto rounded-xl shadow-2xl"
              /> 
             </div>
+
+            <DarkMode/>
           
         </header>
-
 
         <section>
             <Outlet/>
