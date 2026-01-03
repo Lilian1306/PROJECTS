@@ -3,8 +3,8 @@ import DarkMode from "../utils/DarkMode";
 
 export default function PanaLayout() {
   return (
-    <>
-      <header className="flex flex-row justify-between items-center w-full px-4 md:px-10 bg-sky-500 shadow-md relative z-10 py-4 min-h-[100px]">
+    <div className="min-h-screen bg-white dark:bg-slate-950 transition-colors duration-500">
+      <header className="flex flex-row justify-between items-center w-full px-4 md:px-10 bg-sky-500 dark:bg-sky-900 shadow-md relative z-10 py-4 min-h-[100px] transition-colors duration-500">
   
         <div className="flex items-center gap-4">
           <img
@@ -16,8 +16,9 @@ export default function PanaLayout() {
             Panajachel
           </h1>
         </div>
+
         <div className="flex flex-col items-end gap-2 text-white font-medium">
-          <span className="text-sm md:text-base border-b border-sky-300 pb-1">
+          <span className="text-sm md:text-base border-b border-sky-300 dark:border-sky-700 pb-1">
             Guatemala 
           </span>
           <div className="mt-1">
@@ -26,10 +27,9 @@ export default function PanaLayout() {
         </div>
 
       </header>
-
-      <section>
+      <section className="p-4">
         <Outlet />
       </section>
-    </>
+    </div>
   );
 }
