@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react"
+import { GoSun } from "react-icons/go"
+import { MdDarkMode } from "react-icons/md"
 
 
 
@@ -21,8 +23,9 @@ export default function DarkMode() {
   return (
     <button
         onClick={() => setIsDark(!isDark)}
+        className="text-3xl mr-5"
     >
-      {isDark ?  ' Modo Claro' : ' Modo Oscuro'}
+      {isDark ?  <GoSun /> : <MdDarkMode/>}
     </button>
   )
 }
