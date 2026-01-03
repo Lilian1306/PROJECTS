@@ -23,7 +23,7 @@ export default function TownModal({closeModal, isOpen, town} : TownModalProps) {
                 leaveFrom="opacity-100"
                 leaveTo="opacity-0"
             >
-                <div className="fixed inset-0 bg-black/60"/>
+                <div className="fixed inset-0 bg-black/60 dark:bg-black/60 aria-hidden:true"/>
             </Transition.Child>
 
             <div className="fixed inset-0 overflow-y-auto">
@@ -37,8 +37,10 @@ export default function TownModal({closeModal, isOpen, town} : TownModalProps) {
                         leaveFrom="opacity-100 scale-100"
                         leaveTo="opacity-0 scale-95"
                     >
-                        <Dialog.Panel className='w-full max-w-md transform overflow-hidden rounded-2xl bg-white text-left align-middle shadow-xl transition-all p-4'>
-                            <Dialog.Title as="h3" className='text-2xl font-bold text-gray-900 mb-4 text-center'>
+                        <Dialog.Panel className='w-full max-w-md rounded-2xl p-6 shadow-xl transition-all
+                                     bg-white dark:bg-slate-900 border border-gray-100 dark:border-slate-800'>
+
+                            <Dialog.Title as="h3" className='text-lg font-bold text-gray-900 dark:text-white mb-3'>
                              {town?.name}
                               
                             </Dialog.Title>
@@ -48,7 +50,7 @@ export default function TownModal({closeModal, isOpen, town} : TownModalProps) {
                             className="w-full object-cover  mb-4"
                         />
 
-                        <div>
+                        <div className="text-sm text-gray-900 dark:text-white mb-3">
                             {town?.description}
                         </div>
 
