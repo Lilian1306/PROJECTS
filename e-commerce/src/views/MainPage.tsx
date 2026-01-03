@@ -23,7 +23,7 @@ export default function MainPage() {
       <img
         src="/Panajachel.png"
         alt="Mapa del lago de Atitlan"
-        className="w-full h-auto object-cover"
+        className="w-full h-auto object-cover rounded-4xl"
       />
 
       {dataButtons.map((town) => (
