@@ -99,7 +99,7 @@ export default function Formulario() {
           </div>
           <button
             type="submit"
-            className="mt-5 rounded rounded-xl w-full cursor-pointer p-2 bg-purple-400 text-white font-bold shadow-xl"
+            className="mt-5 rounded-xl w-full cursor-pointer p-2 bg-purple-400 text-white font-bold shadow-xl"
           >Enviar</button>
         </form>
   
