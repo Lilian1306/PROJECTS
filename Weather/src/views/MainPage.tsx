@@ -3,6 +3,10 @@
 
 export default function MainPage() {
   return (
-    <div className="text-3xl">MainPage</div>
+    <>
+      <div>
+        <form>What is the weather like today?</form>
+      </div>
+    </>
   )
 }
