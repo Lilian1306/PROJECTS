@@ -10,3 +10,5 @@ export default function MainPage() {
     </>
   )
 }
+
+// Leaving a comment just to not loose the racha
