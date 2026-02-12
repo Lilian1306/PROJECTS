@@ -12,13 +12,13 @@ export default function MainPage() {
         <select 
             id="country"
             className="border border-gray-200 rounded-lg w-60  mt-5 p-2 text-black">
-       
+           <option  value='' >--- Seleccione un pais ---</option>
           {countries.map((country) => (
             <option key={country.id} value={country.id} className="text-2xl text-blue-800"> {country.name}</option>
           ))}
         </select>
         </form>
-
+ 
      
       </div>
     </>
